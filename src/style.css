@@ -1,0 +1,60 @@
+.major-cities {
+  font-family: "poppins", sans-serif;
+}
+.current-city {
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  font-size: 46px;
+  line-height: 48px;
+  font-family: "poppins", sans-serif;
+}
+.search-bar {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+
+.date {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.days-of-the-week {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "poppins", sans-serif;
+}
+
+.sunny {
+  font-size: 30px;
+}
+
+.windy {
+  font-size: 30px;
+}
+
+.cloudy {
+  font-size: 30px;
+}
+
+.cloudy-with-rain {
+  font-size: 30px;
+}
+.high {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  font-family: "poppins", sans-serif;
+}
+
+.low {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+}
