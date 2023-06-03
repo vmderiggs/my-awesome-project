@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFF0BA;}
+	.st2{fill:#FFB83E;}
+	.st3{fill:#F6F6F4;}
+	.st4{fill:#D7D7D7;}
+	.st5{fill:#36CBFF;}
+	.st6{fill:#01BCFF;}
+</style>
+<g id="Weather">
+	<g>
+		<radialGradient id="SVGID_1_" cx="250" cy="250" r="263.4489" fx="72.0854" fy="444.2981" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFB83E"/>
+			<stop  offset="0.2391" style="stop-color:#FFB941"/>
+			<stop  offset="0.4138" style="stop-color:#FFBE4A"/>
+			<stop  offset="0.5679" style="stop-color:#FFC55A"/>
+			<stop  offset="0.7103" style="stop-color:#FFCF71"/>
+			<stop  offset="0.8445" style="stop-color:#FFDC8E"/>
+			<stop  offset="0.9709" style="stop-color:#FFECB1"/>
+			<stop  offset="1" style="stop-color:#FFF0BA"/>
+		</radialGradient>
+		<circle class="st0" cx="250" cy="250" r="243"/>
+	</g>
+</g>
+<g id="Giudes">
+</g>
+</svg>

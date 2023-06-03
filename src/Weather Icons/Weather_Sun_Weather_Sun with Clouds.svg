@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000073717721954319946470000004094586845456517794_);}
+	.st2{fill:#FFF0BA;}
+	.st3{fill:#FFB83E;}
+	.st4{fill:#F6F6F4;}
+	.st5{fill:#D7D7D7;}
+	.st6{fill:#36CBFF;}
+	.st7{fill:#01BCFF;}
+</style>
+<g id="Weather">
+	<g>
+		<radialGradient id="SVGID_1_" cx="308" cy="215.9816" r="196.7736" fx="175.1132" fy="361.1055" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFB83E"/>
+			<stop  offset="0.2391" style="stop-color:#FFB941"/>
+			<stop  offset="0.4138" style="stop-color:#FFBE4A"/>
+			<stop  offset="0.5679" style="stop-color:#FFC55A"/>
+			<stop  offset="0.7103" style="stop-color:#FFCF71"/>
+			<stop  offset="0.8445" style="stop-color:#FFDC8E"/>
+			<stop  offset="0.9709" style="stop-color:#FFECB1"/>
+			<stop  offset="1" style="stop-color:#FFF0BA"/>
+		</radialGradient>
+		<circle class="st0" cx="308" cy="216" r="181.5"/>
+	</g>
+	
+		<radialGradient id="SVGID_00000044179645775330747490000001403084856636069562_" cx="200.8412" cy="417.806" r="231.4474" fx="46.4799" fy="590.2604" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#D7D7D7;stop-opacity:0.9"/>
+		<stop  offset="0.3417" style="stop-color:#DADADA;stop-opacity:0.9203"/>
+		<stop  offset="0.5912" style="stop-color:#E3E3E3;stop-opacity:0.9351"/>
+		<stop  offset="0.8108" style="stop-color:#F3F3F1;stop-opacity:0.9482"/>
+		<stop  offset="0.8414" style="stop-color:#F6F6F4;stop-opacity:0.95"/>
+	</radialGradient>
+	<path style="fill:url(#SVGID_00000044179645775330747490000001403084856636069562_);" d="M46.4,340.3c0,0-38.8,17.9-35.8,65.6
+		s47.7,59.6,47.7,59.6h353.4c0,0,43.2,3,52.1-44.7s-19.6-77.5-47.1-80.5c-12.8-1.4,31-91-84.1-134.2
+		c-95.4-35.8-143.1,62.6-143.1,62.6s-44.7-29.8-89.4-14.9C55.4,268.7,46.4,340.3,46.4,340.3z"/>
+</g>
+<g id="Giudes">
+</g>
+</svg>

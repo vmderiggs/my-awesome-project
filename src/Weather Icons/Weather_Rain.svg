@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF0BA;}
+	.st1{fill:#FFB83E;}
+	.st2{fill:#F6F6F4;}
+	.st3{fill:#D7D7D7;}
+	.st4{fill:#36CBFF;}
+	.st5{fill:#01BCFF;}
+	.st6{fill:url(#SVGID_1_);}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000065783103632265777200000007823934751487154321_);}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000135651600326274625490000008574852190556950438_);}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000147925307507858116110000012649213636559345067_);}
+</style>
+<g id="Giudes">
+	
+		<image style="overflow:visible;" width="1600" height="1200" xlink:href="9DAB3E37F963E788.jpg"  transform="matrix(1 0 0 1 619 -62)">
+	</image>
+	<circle class="st0" cx="882" cy="-187" r="51"/>
+	<circle class="st1" cx="1000" cy="-187" r="51"/>
+	<g>
+		<text transform="matrix(1 0 0 1 962.0107 -106.0537)" class="st1" style="font-family:'MyriadPro-Regular'; font-size:24px;">#ffb83e</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 847.2422 -106.3682)" class="st0" style="font-family:'MyriadPro-Regular'; font-size:24px;">#fff0ba</text>
+	</g>
+	<text transform="matrix(1 0 0 1 919.9512 -259.5171)" style="fill:#FFFFFF; font-family:'MyriadPro-Regular'; font-size:24px;">Sun</text>
+	<circle class="st2" cx="1205" cy="-187" r="51"/>
+	<circle class="st3" cx="1323" cy="-187" r="51"/>
+	<g>
+		<text transform="matrix(1 0 0 1 1278.3867 -106.0537)" class="st3" style="font-family:'MyriadPro-Regular'; font-size:24px;">#d7d7d7</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1170.5303 -106.3682)" class="st2" style="font-family:'MyriadPro-Regular'; font-size:24px;">#f6f6f4</text>
+	</g>
+	<text transform="matrix(1 0 0 1 1232.3789 -259.5171)" style="fill:#FFFFFF; font-family:'MyriadPro-Regular'; font-size:24px;">Cloud</text>
+	<circle class="st4" cx="1564" cy="-187" r="51"/>
+	<circle class="st5" cx="1682" cy="-187" r="51"/>
+	<g>
+		<text transform="matrix(1 0 0 1 1644.6465 -106.0537)" class="st5" style="font-family:'MyriadPro-Regular'; font-size:24px;">#01bcff</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1526.998 -106.3683)" class="st4" style="font-family:'MyriadPro-Regular'; font-size:24px;">#36cbff</text>
+	</g>
+	<text transform="matrix(1 0 0 1 1591.3789 -259.5171)" style="fill:#FFFFFF; font-family:'MyriadPro-Regular'; font-size:24px;">Cloud</text>
+</g>
+<g id="Weather">
+	
+		<radialGradient id="SVGID_1_" cx="212.8412" cy="262.3244" r="231.4474" fx="58.4799" fy="434.7788" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#D7D7D7;stop-opacity:0.9"/>
+		<stop  offset="0.3417" style="stop-color:#DADADA;stop-opacity:0.9203"/>
+		<stop  offset="0.5912" style="stop-color:#E3E3E3;stop-opacity:0.9351"/>
+		<stop  offset="0.8108" style="stop-color:#F3F3F1;stop-opacity:0.9482"/>
+		<stop  offset="0.8414" style="stop-color:#F6F6F4;stop-opacity:0.95"/>
+	</radialGradient>
+	<path class="st6" d="M58.4,184.8c0,0-38.8,17.9-35.8,65.6S70.4,310,70.4,310h353.4c0,0,43.2,3,52.1-44.7s-19.6-77.5-47.1-80.5
+		c-12.8-1.4,31-91-84.1-134.2c-95.4-35.8-143.1,62.6-143.1,62.6s-44.7-29.8-89.4-14.9S58.4,184.8,58.4,184.8z"/>
+	<g id="Page-1">
+		<g id="icon-37-raindrop">
+			
+				<radialGradient id="raindrop_00000124119732795356745700000015634645548068306071_" cx="142.7" cy="372.0518" r="40.203" fx="182.8655" fy="370.3144" gradientUnits="userSpaceOnUse">
+				<stop  offset="5.047137e-02" style="stop-color:#019EFF;stop-opacity:0.9"/>
+				<stop  offset="1" style="stop-color:#36CBFF;stop-opacity:0.95"/>
+			</radialGradient>
+			
+				<path id="raindrop" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000124119732795356745700000015634645548068306071_);" d="
+				M116.4,382.3c0-17,26.9-55.2,26.9-55.2s26.9,38.2,26.9,55.2c0,14.1-12,25.5-26.9,25.5S116.4,396.4,116.4,382.3z"/>
+		</g>
+	</g>
+	<g id="Page-1_00000082354870495699027560000014125577073174934145_">
+		<g id="icon-37-raindrop_00000008838314576876946800000014415036577807622039_">
+			
+				<radialGradient id="raindrop_00000167373385980564321530000008095992709303482297_" cx="241.2781" cy="430.1823" r="40.203" fx="281.4436" fy="428.4448" gradientUnits="userSpaceOnUse">
+				<stop  offset="5.047137e-02" style="stop-color:#019EFF;stop-opacity:0.9"/>
+				<stop  offset="1" style="stop-color:#36CBFF;stop-opacity:0.95"/>
+			</radialGradient>
+			
+				<path id="raindrop_00000140694933645175523630000009244836746846097849_" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000167373385980564321530000008095992709303482297_);" d="
+				M215,440.4c0-17,26.9-55.2,26.9-55.2s26.9,38.2,26.9,55.2c0,14.1-12,25.5-26.9,25.5S215,454.5,215,440.4z"/>
+		</g>
+	</g>
+	<g id="Page-1_00000117669661658972381680000010650629817682886292_">
+		<g id="icon-37-raindrop_00000057124149997082552810000011195604312108422310_">
+			
+				<radialGradient id="raindrop_00000181062221210271796510000002890929824159220149_" cx="367.2781" cy="367.1823" r="40.203" fx="407.4436" fy="365.4448" gradientUnits="userSpaceOnUse">
+				<stop  offset="5.047137e-02" style="stop-color:#019EFF;stop-opacity:0.9"/>
+				<stop  offset="1" style="stop-color:#36CBFF;stop-opacity:0.95"/>
+			</radialGradient>
+			
+				<path id="raindrop_00000122698634739034147620000015090158353524929671_" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#raindrop_00000181062221210271796510000002890929824159220149_);" d="
+				M341,377.4c0-17,26.9-55.2,26.9-55.2s26.9,38.2,26.9,55.2c0,14.1-12,25.5-26.9,25.5C353.1,402.9,341,391.5,341,377.4z"/>
+		</g>
+	</g>
+</g>
+</svg>

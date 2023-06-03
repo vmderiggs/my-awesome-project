@@ -4,151 +4,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/37ada42c54.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Weather</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
+
   <body>
     <div class="container">
-      <div class="container text-center major-cities">
-        <div class="row align-items-center">
-          <div class="col">New York City</div>
-          <div class="col">Chicago</div>
-          <div class="col">Los Angeles</div>
-          <div class="col">San Francisco</div>
-          <div class="col">Atlanta</div>
-          <div class="col">London</div>
-          <div class="col">Paris</div>
-          <div class="col">Rome</div>
-        </div>
+      <div class="row">
+        <form id="search-form">
+          <input type="text" placeholder="Search" id="city-input" />
+          <input type="submit" value="Search" id="city-search" />
+          <input type="button" value="Current City" id="current-city" />
+        </form>
       </div>
-    </div>
-    <br>
-      <form action="/submit" class="search-form" id="search-form">
-    
-        <input
-          type="search"
-          name="search-bar"
-          id="city-input"
-          placeholder="Search for your city"
-          autofocus="on"
-                autocomplete="off"
-                class="form-control"
-          required
-        />
-
-        <input type="submit" value="Search"/>
-         </form>
-         <button id = "current-location-button">Current Location</button>
-<br>
-<br>
-    <h1 class="current-city" id="city">New York City</h1>
-    <br>
-    
-
-
-
-
-       <div class="container">
-      <div class="container text-center">
-        <div class="row align-items-center">
-            <div class="row"></div>
-
-          <div class = "date" id="date"></div>
-<br>
-<br>
-
-<br>
-
-          <div class="col"><h2 class="temperature" id="temperature">
-            44° <a href="#" id="fahrenheit-link">F</a> |
-            <a href="#" id="celsius-link">C</a>
-          </h2></div>
-          <div class="col">Sunrise: 7:10AM</div>
-           <div class="row"></div>
-          <div class="col"><h3><i class="fa-solid fa-cloud cloudy"></i> Cloudy</h3></div>
-          <div class="col">Sunset: 6:59PM</div>
-           <div class="row"></div>
-          <div class="col"> H: 47° L: 33°</div>
-          <div class="col" ><span id="humidity">Humidity: 49%</span></div>
-           <div class="row"></div>
-          <div class="col"><span id="wind">Wind:</div>
-          <div class="col"><em>Bring your umbrella!</em></div>
+      <div class="row">
+        <div class="col">
+          <h1 id="city">Brooklyn</h1>
+          <h4>Current Time: <span id="time">Wednesday 20:51</span></h4>
+          <ul>
+            <li>Precipitation: <span id="precipitation">0%</span></li>
+            <li>Humidity: <span id="humidity">73</span>%</li>
+            <li>Wind: <span id="wind"> 2</span> km/h</li>
+          </ul>
         </div>
-      </div>
-    </div>
-    </div>
-      <br>
-      <br>
-        <div class="container text-center days-of-the-week">
-        <div class="row align-items-center">
-          <div class="col">sun</div>
-          <div class="col">mon</div>
-          <div class="col">tue</div>
-          <div class="col">wed</div>
-          <div class="col">thu</div>
-          <div class="col">fri</div>
-          <div class="col">sat</div>
+        <div class="col">
+          <p class="todaytemp">
+            <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon" id="icon">
+            <span id="temperature">12</span><span class="units">
+              <a href="#" id="celsius-link" class="active">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          </p>
         </div>
+        </div>
+         <div class="row"><div class="col-2">
+            <div class="weather-forecast-date">Thu</div>
+            <img src="https://openweathermap.org/img/wn/03d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">23°</span>
+              <span class="weather-forecast-temperature-min"> 11°</span>
+            </div>
+          </div><div class="col-2">
+            <div class="weather-forecast-date">Fri</div>
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">22°</span>
+              <span class="weather-forecast-temperature-min"> 11°</span>
+            </div>
+          </div><div class="col-2">
+            <div class="weather-forecast-date">Sat</div>
+            <img src="https://openweathermap.org/img/wn/03d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">20°</span>
+              <span class="weather-forecast-temperature-min"> 11°</span>
+            </div>
+          </div><div class="col-2">
+            <div class="weather-forecast-date">Sun</div>
+            <img src="https://openweathermap.org/img/wn/04d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">21°</span>
+              <span class="weather-forecast-temperature-min"> 8°</span>
+            </div>
+          </div><div class="col-2">
+            <div class="weather-forecast-date">Mon</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">21°</span>
+              <span class="weather-forecast-temperature-min"> 10°</span>
+            </div>
+          </div><div class="col-2">
+            <div class="weather-forecast-date">Tue</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" id="weather-icon" width="42px">
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">19°</span>
+              <span class="weather-forecast-temperature-min"> 12°</span>
+            </div>
+          </div></div>
+    <div id="author">
+        <p><a href="https://github.com/vmderiggs/my-awesome-project" target="_blank"
+        >Open-source code</a> by Vanessa De Riggs-Golden</p></body>
       </div>
-    </div>
-  </div>
-    <br>
-  <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col"> <i class="fa-solid fa-cloud cloudy"></i>
- </div>
-          <div class="col"><i class="fa-solid fa-cloud-showers-heavy cloudy-with-rain"></i></div>
-          <div class="col"><i class="fa-solid fa-cloud-showers-heavy cloudy-with-rain"></i></div>
-          <div class="col"><i class="fa-solid fa-wind windy"></i></div>
-          <div class="col"><i class="fa-regular fa-sun sunny"></i></div>
-          <div class="col"><i class="fa-solid fa-cloud cloudy"></i></div>
-          <div class="col"><i class="fa-solid fa-cloud-showers-heavy cloudy-with-rain"></i></div>
-          </div>
-          </div>
-          <br>
-
-  <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col high">H: 47°</div>
-          <div class="col high">H: 45°</div>
-          <div class="col high">H: 42°</div>
-          <div class="col high">H: 43°</div>
-          <div class="col high">H: 54°</div>
-          <div class="col high">H: 53°</div>
-          <div class="col high">H: 53°</div>
-</div>
-    </div>
-     <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col low">L: 33°</div>
-          <div class="col low">L: 39°</div>
-          <div class="col low">L: 34°</div>
-          <div class="col low">L: 33°</div>
-          <div class="col low">L: 32°</div>
-          <div class="col low">L: 39°</div>
-          <div class="col low">L: 41°</div>
-</div>
-		</div>
-   <div>
-      <a href="https://github.com/vmderiggs/my-awesome-project">Open source code</a> by Vanessa De Riggs-Golden
-		<script src="src/index.js"></script>
-    </div>
-    </div>
-
-
-
-   
-  </body>
+  <script src="src/index.js"></script>
 </html>
