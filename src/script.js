@@ -124,6 +124,10 @@ citySearch.addEventListener("click", () => {
 
   cityUpdate(cityName);
 });
+function handleSubmit(event) {
+  event.preventDefault();
+  search();
+}
 
 //Current city
 let currentCity = document.querySelector("#current-city");
