@@ -42,60 +42,104 @@
         </div>
         <div class="col">
           <p class="todaytemp">
-            <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon" id="icon">
-            <span id="temperature">...</span><span class="units">
+            <img
+              src="https://openweathermap.org/img/wn/02n@2x.png"
+              alt="icon"
+              id="icon"
+            />
+            <span id="temperature">...</span
+            ><span class="units">
               <a href="#" id="celsius-link" class="active">°C</a> |
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
           </p>
         </div>
-        </div>
-         <div class="row"><div class="col-2">
-            <div class="weather-forecast-date">Thu</div>
-            <img src="https://openweathermap.org/img/wn/03d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">23°</span>
-              <span class="weather-forecast-temperature-min"> 11°</span>
-            </div>
-          </div><div class="col-2">
-            <div class="weather-forecast-date">Fri</div>
-            <img src="https://openweathermap.org/img/wn/01d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">22°</span>
-              <span class="weather-forecast-temperature-min"> 11°</span>
-            </div>
-          </div><div class="col-2">
-            <div class="weather-forecast-date">Sat</div>
-            <img src="https://openweathermap.org/img/wn/03d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">20°</span>
-              <span class="weather-forecast-temperature-min"> 11°</span>
-            </div>
-          </div><div class="col-2">
-            <div class="weather-forecast-date">Sun</div>
-            <img src="https://openweathermap.org/img/wn/04d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">21°</span>
-              <span class="weather-forecast-temperature-min"> 8°</span>
-            </div>
-          </div><div class="col-2">
-            <div class="weather-forecast-date">Mon</div>
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">21°</span>
-              <span class="weather-forecast-temperature-min"> 10°</span>
-            </div>
-          </div><div class="col-2">
-            <div class="weather-forecast-date">Tue</div>
-            <img src="https://openweathermap.org/img/wn/10d@2x.png" id="weather-icon" width="42px">
-            <div class="weather-forecast-temperature">
-              <span class="weather-forecast-temperature-max">19°</span>
-              <span class="weather-forecast-temperature-min"> 12°</span>
-            </div>
-          </div></div>
-    <div id="author">
-        <p><a href="https://github.com/vmderiggs/my-awesome-project" target="_blank"
-        >Open-source code</a> by Vanessa De Riggs-Golden</p></body>
       </div>
-  <script src="src/index.js"></script>
+      <div class="row" id="forecast">
+        <div class="col-2">
+          <div class="weather-forecast-date">Thu</div>
+          <img
+            src="https://openweathermap.org/img/wn/03d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">23°</span>
+            <span class="weather-forecast-temperature-min"> 11°</span>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="weather-forecast-date">Fri</div>
+          <img
+            src="https://openweathermap.org/img/wn/01d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">22°</span>
+            <span class="weather-forecast-temperature-min"> 11°</span>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="weather-forecast-date">Sat</div>
+          <img
+            src="https://openweathermap.org/img/wn/03d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">20°</span>
+            <span class="weather-forecast-temperature-min"> 11°</span>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="weather-forecast-date">Sun</div>
+          <img
+            src="https://openweathermap.org/img/wn/04d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">21°</span>
+            <span class="weather-forecast-temperature-min"> 8°</span>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="weather-forecast-date">Mon</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">21°</span>
+            <span class="weather-forecast-temperature-min"> 10°</span>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="weather-forecast-date">Tue</div>
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            id="weather-icon"
+            width="42px"
+          />
+          <div class="weather-forecast-temperature">
+            <span class="weather-forecast-temperature-max">19°</span>
+            <span class="weather-forecast-temperature-min"> 12°</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="author">
+      <p>
+        <a
+          href="https://github.com/vmderiggs/my-awesome-project"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Vanessa De Riggs-Golden
+      </p>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
 </html>

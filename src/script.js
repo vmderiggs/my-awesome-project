@@ -79,21 +79,11 @@ function formatDay(timestamp) {
 }
 
 //Search and current weather with API
-let apiKey = "49ae89t38o6ab04c6bc6203b233afab6";
+let apiKey = "c03face7caa58a9b7ffa9f52b7238a93";
 
-function handleSubmit(event) {
-  event.preventDefault();
-  let searchCity = document.querySelector("#city-input").value;
-  cityUpdate(searchCity);
-}
-
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", handleSubmit);
-
-search(cityInputElement.value);
 //City in search and update text
 function cityUpdate(city) {
-  let apiKey = "49ae89t38o6ab04c6bc6203b233afab6";
+  let apiKey = "c03face7caa58a9b7ffa9f52b7238a93";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
 
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
@@ -112,9 +102,6 @@ function showTemperature(response) {
   cityTemp.innerHTML = temperature;
 
   celsiusTemp = response.data.main.temp;
-
-  let precipitation = document.querySelector("#precipitation");
-  precipitation.innerHTML = response.data.precipitation.main;
 
   let humidity = document.querySelector("#humidity");
   humidity.innerHTML = response.data.main.humidity;
