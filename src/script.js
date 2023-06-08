@@ -126,8 +126,11 @@ citySearch.addEventListener("click", () => {
 });
 function handleSubmit(event) {
   event.preventDefault();
-  search();
+  // search();
 }
+
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", handleSubmit);
 
 //Current city
 let currentCity = document.querySelector("#current-city");
